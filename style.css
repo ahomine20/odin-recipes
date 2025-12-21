@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* font-size: 10px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title {
+    display: block;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.lista {
+    display: inline;
+    
+    background-color: rgb(rgb(37, 145, 227), green, blue);
+    height: 20px;
+    width: 100px;
+}
+

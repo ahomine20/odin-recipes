@@ -1,24 +1,80 @@
 * {
     padding: 0px;
     margin: 0px;
-    /* font-size: 10px; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-family: sans-serif, 'Times New Roman', Times, serif ;
     /* background: black; */
 }
-.title {
+h1.title {
     display: block;
     text-align: center;
-    height: 50px;
-    width: 400px;
-    margin: auto;
+    height: auto;
+    width: 850px;
+    margin: 3px auto;
+    padding: 12px;
     background-color: aqua;
 }
 
-.lista {
-    display: inline;
+.lista_uno,
+.lista_dos,
+.lista_tres {
+    padding: 3px ;
+    /* border: 2px dotted rgb(4, 218, 25); */
+    list-style-type: none;
+    margin: 20px;
+    list-style-position: inside;
+    text-align: center;
     
-    background-color: rgb(rgb(37, 145, 227), green, blue);
-    height: 20px;
-    width: 100px;
+}
+.lista_dos {
+    background-color: #d98c2e;
+}
+.cuerpo-tender {
+    background-color: rgba(10, 174, 149, 0.375)
 }
 
+h1.title_tender{
+    display: block;
+    text-align: center;
+    height: auto;
+    width: 872px;
+    margin: 3px auto;
+    padding: 12px;
+    background-color: #d98c2e;
+}
+
+.tender-img {
+    margin: 4px;
+    outline: 3px groove #d98c2e;
+    margin-bottom: 20px;
+}
+h2 {
+    margin: 25px 10px;
+    
+}
+
+p.tender-p {
+    margin: 20px auto;
+}
+
+.tender-ul {
+    margin: 30px;
+    list-style-position: outside;
+    list-style-type: square;
+}
+
+.tender-ol {
+    margin: 30px;
+    list-style-type: ;
+}
+div.final {
+    margin-bottom: 40px;
+}
+
+.home-tender,
+.up-tender {
+    display: inline-block;
+    padding: 1px 20px;
+    margin: 1px 20px;
+    border: 2px solid white;
+}

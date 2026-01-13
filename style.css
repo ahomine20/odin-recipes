@@ -29,6 +29,11 @@ h1.title {
 .lista_dos {
     background-color: #d98c2e;
 }
+.lista_tres {
+    background-color: #ee715b;
+}
+
+    /******************** Tender HTML ***********************/
 .cuerpo-tender {
     background-color: rgba(10, 174, 149, 0.375)
 }
@@ -44,17 +49,19 @@ h1.title_tender{
 }
 
 .tender-img {
-    margin: 4px;
-    outline: 3px groove #d98c2e;
-    margin-bottom: 20px;
+    margin-left: 325px;
+    margin-top: 12px;
+    outline: 5px groove #d98c2e;
+    /* margin-bottom: 20px; */
 }
 h2 {
     margin: 25px 10px;
     
 }
 
-p.tender-p {
-    margin: 20px auto;
+h4.tender-p {
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .tender-ul {
@@ -73,6 +80,51 @@ div.final {
 
 .home-tender,
 .up-tender {
+    display: inline-block;
+    padding: 1px 20px;
+    margin: 1px 20px;
+    border: 2px solid white;
+}
+/******************* Lavash Pizza ***************************/
+
+.cuerpo-pizza {
+    background-color: #7aecf6de;
+}
+
+.title-pizza {
+    display: block;
+    text-align: center;
+    height: auto;
+    width: 872px;
+    margin: 3px auto;
+    padding: 12px;
+    background-color: #ee715b;
+}
+
+.img-pizza {
+    margin-left: 325px;
+    margin-top: 12px;
+    outline: 5px groove #f5755e;
+    
+}
+
+h4.pizza-p {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+ul.pizza-ul {
+    margin: 30px;
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+ol.pizza-ol {
+    margin: 30px;
+    /* list-style-type: ; */
+}
+.home-pizza,
+.up-pizza {
     display: inline-block;
     padding: 1px 20px;
     margin: 1px 20px;

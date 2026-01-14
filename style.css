@@ -3,7 +3,9 @@
     margin: 0px;
     font-size: 20px;
     font-family: sans-serif, 'Times New Roman', Times, serif ;
-    /* background: black; */
+}
+body {
+    background: rgba(245, 147, 221, 0.335);
 }
 h1.title {
     display: block;
@@ -15,6 +17,7 @@ h1.title {
     background-color: aqua;
 }
 
+
 .lista_uno,
 .lista_dos,
 .lista_tres {
@@ -23,8 +26,11 @@ h1.title {
     list-style-type: none;
     margin: 20px;
     list-style-position: inside;
-    text-align: center;
-    
+    text-align: center; 
+}
+
+.lista_uno {
+    background-color: #c5b86c;
 }
 .lista_dos {
     background-color: #d98c2e;
@@ -32,6 +38,7 @@ h1.title {
 .lista_tres {
     background-color: #ee715b;
 }
+
 
     /******************** Tender HTML ***********************/
 .cuerpo-tender {
@@ -67,7 +74,7 @@ h4.tender-p {
 .tender-ul {
     margin: 30px;
     list-style-position: outside;
-    list-style-type: square;
+    list-style-type: disc;
 }
 
 .tender-ol {
@@ -83,7 +90,7 @@ div.final {
     display: inline-block;
     padding: 1px 20px;
     margin: 1px 20px;
-    border: 2px solid white;
+    border: 2px solid #d98c2e;
 }
 /******************* Lavash Pizza ***************************/
 
@@ -104,8 +111,7 @@ div.final {
 .img-pizza {
     margin-left: 325px;
     margin-top: 12px;
-    outline: 5px groove #f5755e;
-    
+    outline: 5px groove #f5755e;  
 }
 
 h4.pizza-p {
@@ -115,18 +121,62 @@ h4.pizza-p {
 
 ul.pizza-ul {
     margin: 30px;
-    list-style-type: square;
+    list-style-type: disc;
     list-style-position: outside;
 }
 
 ol.pizza-ol {
     margin: 30px;
-    /* list-style-type: ; */
 }
 .home-pizza,
 .up-pizza {
     display: inline-block;
     padding: 1px 20px;
     margin: 1px 20px;
-    border: 2px solid white;
+    border: 2px solid #f5755e;
+}
+
+/******************* Potato salad ***************************/
+
+.cuerpo-salad {
+    background-color: #c5b86c;
+}
+
+.title-salad {
+    display: block;
+    text-align: center;
+    height: auto;
+    width: 872px;
+    margin: 3px auto;
+    padding: 12px;
+    background-color: #028a7f;
+}
+.img-salad {
+    margin-left: 325px;
+    margin-top: 12px;
+    outline: 5px groove #f5755e;  
+}
+
+h4.salad-p {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+ul.salad-ul {
+    margin: 30px;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+ol.salad-ol {
+    margin: 30px;
+    list-style-type: ;
+}
+
+.home-salad,
+.up-salad {
+    display: inline-block;
+    padding: 1px 20px;
+    margin: 1px 20px;
+    border: 2px solid #f5755e;
 }
